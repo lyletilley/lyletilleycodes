@@ -22,7 +22,7 @@ error_reporting(E_ALL);
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "mohamed_ll14@yahoo.com";
+        $recipient = "tilley_l@hotmail.com";
 
         // Set the email subject.
         $subject = "New contact from $name";

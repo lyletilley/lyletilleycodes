@@ -20,6 +20,10 @@
         font-weight: 700;
         margin-bottom: 40px;
     }
+
+    body {
+        min-width: 400px;
+    }
 }
 @media only screen and (min-width: 400px) and (max-width: 1200px) {}
 
