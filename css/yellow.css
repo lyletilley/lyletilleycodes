@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb {
 --------------------------------------------------*/
 .about .container h2:before{
     border-color: transparent transparent #ffd700;
-    width: 14%;
+    width: 19%;
 }
 .about .container a:hover{
     color: #ffd700;
@@ -53,7 +53,7 @@ body::-webkit-scrollbar-thumb {
 .service .container h2:before{
     border-color: transparent transparent #ffd700;
     
-    width: 13.5%;
+    width: 20%;
 
    }
 .service i{
