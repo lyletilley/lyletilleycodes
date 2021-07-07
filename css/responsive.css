@@ -1,14 +1,8 @@
-/*
-* ----------------------------------------------------------------------------------------
-Author       : Mohamed Alaa 
-Template Name: lapcome – Personal Responsive Template 
-Version      : 1.0
-* ----------------------------------------------------------------------------------------
-*/
+
 
 
 /* Medium Layout: 1280px. */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 400px) {
     .sub-container h1 {
         font-size: 9em;
         font-weight: 900;
@@ -27,7 +21,7 @@ Version      : 1.0
         margin-bottom: 40px;
     }
 }
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (min-width: 400px) and (max-width: 1200px) {}
 
 
 /* Tablet Layout: 768px. */
