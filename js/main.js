@@ -1,21 +1,4 @@
-/*global $,jQuery,WOW*/
-/*jslint node: true */
-/*jshint strict:false */
 
-/*
-    Template Name   : lapcome .
-    Template URI    : http://lapcome.eb2a.com
-    Description     : Personal .
-    Author          : Mohamed Alaa Abas
-    Author URI      : https://themeforest.net/user/mohamedb 
-    Author Facebook : https://www.facebook.com/profile.php?id=100004522147924 
-    Author Email    : mohamed_ll14@yahoo.com 
-*/
-/*
-     *-----------------------------------------------
-     *         Loading  
-     *-----------------------------------------------
-     */
 $(window).on("load", function () {
     'use strict';
     // Class Of Body 
