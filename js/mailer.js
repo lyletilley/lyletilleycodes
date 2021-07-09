@@ -2,6 +2,8 @@
 /*jslint node: true */
 /*jshint strict:false */
 // Get the form
+import { }
+
 'use strict';
 var form             = $('#ajax-contact'),
     formMessages     = $('#form-messages'), // Get the messages div.

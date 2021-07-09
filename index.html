@@ -401,27 +401,22 @@
            <!-- Start Row -->        
            <div class="row">
                 <!-- Form For You-->  
-                <form method="post" id="ajax-contact" class="col-md-6 wow fadeIn" data-wow-delay=".6s">
-					<!-- NAME -->
-					<div class="form-group col-md-12">
-						<input type="text" class="form-control" id="name" name='name'
-                               placeholder="Your name" data-error="Please, enter your name" required>
-					</div>
-					<!-- EMAIL -->
-					<div class="form-group col-md-12">
-						<input type="text" class="form-control" id="email" name='email' placeholder="Your e-mail"  
-                               data-required-error="Please, enter your email" 
-                         data-error="Please, enter your email as 'mail@mail.com'" required>
-					</div>
-					<!-- MESSAGE -->
-					<div class="form-group col-md-12">
-                     <textarea id="message" name='message' class="form-control" cols="40" rows="6" placeholder="Your Messages"></textarea>
-					</div>
-				    <div class="form-group col-md-12">
-                       <!-- Buttom Submit --> 
-                       <input type="submit" id='submit'  class="btn btn-pr" value="Send">
-                    </div>
-				</form>
+                <form name="contact" data-netlify="true">
+                
+                  <p>
+                    <label>Your Name: <input type="text" name="name" /></label>   
+                  </p>
+                  <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                  </p>
+                  <p>
+                    <label>Message: <textarea name="message"></textarea></label>
+                  </p>
+                  <p>
+                    <button type="submit">Send</button>
+                  </p>
+                </form>
+                
               
                <div id="form-messages" class="alert alert-success form-success col-md-6"></div>
            
@@ -516,6 +511,8 @@
     <script src="js/parinline.js"></script>
       
     <script src="js/mailer.js"></script>  
+
+    <script src="mailer.php"></script>
        
     <!-- main.js -->
     <script src="js/main.js"></script>  
