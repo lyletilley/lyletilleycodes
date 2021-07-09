@@ -5,16 +5,14 @@
     -o-box-sizing: border-box;
     box-sizing: border-box;
 }
-/*--------------------------------------------
-              Body And Scroll Design
----------------------------------------------*/
+/* body heree */
 body{
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     width: 100%;
     height: 100%;
 }
-/* paleGreenScroll */
+/* green scrolling */
 body::-webkit-scrollbar {
     width: .4em;
 }
