@@ -506,6 +506,31 @@ text-align: center;
 .form-text {
     text-align: right;
 }
+
+h2 {
+    text-align: center;
+}
+
+
+.service {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactMe {
+    text-align: center;
+}
+
+.aboutMeBoy, div.col-md-8:nth-child(2) {
+    text-align: center;
+}
+
+.service .row h4, .service .row .sub-text {
+    text-align: center;
+}
+
+
 /***********************
     End Contact
 ************************/
