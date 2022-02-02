@@ -184,7 +184,7 @@ text-align: center;
               start about Page 
 --------------------------------------------------*/
 .about .container h2:before{
-    content: "";
+ 
     position: absolute;
     border-width: 1px;
     padding-left: 144px;
@@ -237,7 +237,6 @@ text-align: center;
 -----------------------------------------------------*/
 /* Width For After In Service*/
 .service .container h2:before{
-    content: "";
     position: absolute;
     border-width: 1px;
     padding-left: 133px;
@@ -286,7 +285,7 @@ text-align: center;
         Start Work Page 
 ----------------------------*/
 .portfoliopage h2:before{
-    content: "";
+ 
     position: absolute;
     border-width: 1px;
     padding-left: 103px;
@@ -419,7 +418,7 @@ text-align: center;
     Start Contact
 ************************/
 .contact .container h2:after{
-    content: "";
+  
     position: absolute;
     border-width: 1px;
     padding-left: 150px;
@@ -500,6 +499,11 @@ div.col-xs-12:nth-child(8) > img:nth-child(1) {
 /* bootstrap Contact */
 .form-text{
     padding-top: 45px;
+}
+
+
+.aboutMeBoy, h2, #service > div:nth-child(1) > h2:nth-child(1) {
+    text-decoration: none;
 }
 .form-control {
     resize: none;
