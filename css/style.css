@@ -501,11 +501,26 @@ div.col-xs-12:nth-child(8) > img:nth-child(1) {
 #about > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
     margin-right: 20px;
 }
+
+.theDance {
+   
+    justify-content: center;
+    text-align: center;
+    content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 70%;
+}
 /* bootstrap Contact */
 .form-text{
     padding-top: 45px;
 }
 
+.contactMe {
+    font-size: 2rem;
+}
 
 .aboutMeBoy, h2, #service > div:nth-child(1) > h2:nth-child(1) {
     text-decoration: none;
