@@ -63,8 +63,8 @@ canvas{
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-
-@media only screen and (max-width: 767px) {
-  .particles-js-canvas-el {
-  
+@media only screen and (max-width: 370px) {
+  #particles-js {
+    background-image: url('thewallpaper.jpg');
   }
+}
