@@ -237,6 +237,17 @@ text-align: center;
 /*------------------------------------------------
               start about Page 
 --------------------------------------------------*/
+
+
+div.col-md-4:nth-child(1) > img:nth-child(1) {
+    border-radius: 10%;
+}
+
+
+
+#container {
+    border-radius: 10%;
+}
 .about .container h2:before{
  
     position: absolute;
@@ -431,6 +442,7 @@ text-align: center;
 .TESTIMONIALS h2:before{
     content: "";
     position: absolute;
+    text-align: center;
     border-width: 1px;
     padding-left: 257px;
     border-color: transparent transparent #333;
@@ -517,10 +529,10 @@ text-align: center;
    
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap);
 
 html {
-  font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
