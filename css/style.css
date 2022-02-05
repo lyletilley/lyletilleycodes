@@ -585,7 +585,7 @@ h1 {
 
 .icon {
   display: block;
- 
+  fill: #474544;
   height: 50px;
   margin: 0 auto;
   width: 50px;
