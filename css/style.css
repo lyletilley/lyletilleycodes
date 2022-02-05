@@ -585,7 +585,7 @@ h1 {
 
 .icon {
   display: block;
-  fill: #474544;
+ 
   height: 50px;
   margin: 0 auto;
   width: 50px;
@@ -632,6 +632,10 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
 .name {
 	float: left;
 	width: 45%;
+}
+
+#container > h1:nth-child(1) {
+    text-decoration: none;
 }
 
 select {
