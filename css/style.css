@@ -694,6 +694,11 @@ textarea {
 	color: #474544;
 }
 
+div.col-xs-12:nth-child(7) > img:nth-child(1) {
+    height: 250px;
+    width:  300px;
+}
+
 #form_button {
   background: none;
   border: solid 2px #474544;
