@@ -245,9 +245,6 @@ div.col-md-4:nth-child(1) > img:nth-child(1) {
 
 
 
-#container {
-    border-radius: 10%;
-}
 .about .container h2:before{
  
     position: absolute;
