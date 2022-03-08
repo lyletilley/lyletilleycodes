@@ -230,6 +230,17 @@ text-align: center;
       
   }
 }
+
+.sub-p > a:nth-child(7), .sub-p > a:nth-child(10) {
+    background-color: rgb(90, 90, 90);
+    margin: 20px !important;
+    padding: 13px !important;
+    line-height: 2rem;
+    border-radius: 2rem;
+    color: #ffd700 !important;
+    
+
+}
 /* -----------------------------------------------
                End Home Page
 --------------------------------------------------*/
