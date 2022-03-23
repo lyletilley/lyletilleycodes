@@ -539,6 +539,19 @@ div.col-md-4:nth-child(1) > img:nth-child(1) {
    
 }
 
+#container {
+    border: none !important;
+}
+
+.row a {
+   justify-content: center !important;
+
+}
+.about, .portfoliopage, .contact, .service
+{
+    padding-bottom: 0px !important;
+
+}
 @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap);
 
 html {
