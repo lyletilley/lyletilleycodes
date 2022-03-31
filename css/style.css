@@ -636,6 +636,30 @@ h1 {
 	width: 45%;
 }
 
+.skill-name {
+    list-style: none;
+    color: #537a5a;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+    flex-basis: 20%;
+  }
+  .skill-name i {
+    font-size: 2rem;
+    color: black;
+  }
+  .skill-name p {
+    color: black;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  
+  .skill-name i:hover,
+  .skill-name i:focus {
+    color: #9ae19d;
+    transition: 0.4s ease;
+  }
+
 input[type='text'], [type='email'], select, textarea {
 	background: none;
   border: none;
@@ -1101,6 +1125,15 @@ p{
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
+}
+
+div.col-md-4:nth-child(3), div.col-md-4:nth-child(2), div.col-md-4:nth-child(5) {
+    
+    width: 100% !important;
+}
+
+div.col-md-4:nth-child(5) {
+    margin-top: 60px;
 }
 
 /*-------------------------------------------------------------
