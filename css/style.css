@@ -347,7 +347,7 @@ div.col-md-4:nth-child(1) > img:nth-child(1) {
 }
 
 .service .row .sub-text{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 27px;
     letter-spacing: 1px;
     text-align: right;
