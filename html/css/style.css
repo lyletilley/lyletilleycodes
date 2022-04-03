@@ -413,6 +413,7 @@ h6 { font-size: 16px; }
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
+	background-image: url("img/about/lyle.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -2056,7 +2057,7 @@ h6 { font-size: 16px; }
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url("..//img/about/3.jpg");
+	background-image: url("..//img/about/4.jpg");
 }
 
 /*---------------------------------------------------*/
