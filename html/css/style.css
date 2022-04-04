@@ -366,7 +366,7 @@ h6 { font-size: 16px; }
 .cavani_tm_topbar .hamburger-inner:after, 
 .cavani_tm_topbar .hamburger-inner:before{
 	width: 30px;
-	height: 2px;
+
 }
 .cavani_tm_topbar .trigger{
 	position: relative;
@@ -465,6 +465,8 @@ h6 { font-size: 16px; }
 	color: #333;
 	font-family: "Poppins";
 }
+
+
 
 /*---------------------------------------------------*/
 /*	04) CAVANI MAINPART
