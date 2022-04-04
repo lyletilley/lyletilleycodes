@@ -374,6 +374,8 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_topbar .hamburger-box{
 	width: 30px;
+
+	font-size: 3rem !important;
 }
 .cavani_tm_mobile_menu{
 	position: fixed;
@@ -383,6 +385,7 @@ h6 { font-size: 16px; }
 	width: 200px;
 	z-index: 15;
 	background-color: #fff;
+	
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -576,6 +579,7 @@ h6 { font-size: 16px; }
 	height: 100%;
 	display: flex;
 	align-items: center;
+	background-color: #e7e7e7;
 }
 .cavani_tm_home .content{
 	padding-left: 100px;
