@@ -1266,6 +1266,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_portfolio .portfolio_list ul li .image{
 	position: relative;
+
 }
 .cavani_tm_portfolio .portfolio_list ul li .image img{
 	position: relative;
@@ -1290,6 +1291,11 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_portfolio .portfolio_list ul li .list_inner:hover .image .main{
 	filter: blur(2px);
+	
+}
+
+.particles-js-canvas-el {
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.07));
 }
 .cavani_tm_portfolio .portfolio_list ul li .icon{
 	position: absolute;
