@@ -1294,6 +1294,10 @@ h6 { font-size: 16px; }
 	
 }
 
+.testimonials {
+	display: none;
+}
+
 .particles-js-canvas-el {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.07));
 }
