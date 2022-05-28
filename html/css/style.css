@@ -120,6 +120,29 @@ h1, h2, h3, h4, h5, h6{
 	font-family: "Poppins";
 	color: #333;
 }
+
+
+h7 { 
+	font-weight:700;
+	line-height: 1.2;
+	font-family: "Poppins";
+	color: #333;
+	font-size: 10px;
+		position: absolute;
+		display: inline-block;
+		
+		text-transform: uppercase;
+		animation: flip 4s infinite;
+		animation-delay: calc(.2s * var(--i))
+	  }
+@keyframes h7 {
+	0%,80% {
+	  transform: rotateY(360deg) 
+	}
+  }
+
+
+
 h1 { font-size: 45px; }
 h2 { font-size: 36px; }
 h3 { font-size: 30px; }
