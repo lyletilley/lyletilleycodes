@@ -132,7 +132,8 @@ h7 {
 		display: inline-block;
 		
 		text-transform: uppercase;
-		animation: flip 4s infinite;
+		animation: flip 4s;
+		animation-iteration-count: 12;
 		animation-delay: calc(.2s * var(--i))
 	  }
 @keyframes h7 {
