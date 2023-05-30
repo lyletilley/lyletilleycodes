@@ -602,16 +602,20 @@ body.light hr.separator {
 }
 .home .bg {
 
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQEC_iaW8lloNA/profile-displayphoto-shrink_800_800/0/1581527786490?e=1673481600&v=beta&t=gSk90s-NurttZBW8A9PjVTh13yP0DbZV4YSywS0_pcQ);
+  background-image: url(/assets/headshot.PNG);
   background-repeat: no-repeat;
    background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
   height: calc(100vh - 80px);
-  z-index: 111;
+  z-index: 11;
   border-radius: 30px;
   left: 40px;
   top: 40px;
   box-shadow: 0 0 7px rgba(0,0,0,.9);
+  
+  
   
 }
 
